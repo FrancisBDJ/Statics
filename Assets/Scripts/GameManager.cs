@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.R))
         {
-            itemList.Remove(itemList[0]);
+            itemList.RemoveAt (0);
         }
         
         if (Input.GetKeyDown(KeyCode.N))
